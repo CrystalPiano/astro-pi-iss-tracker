@@ -162,7 +162,7 @@ while True:
         ] 
         ap.set_pixels(Austria)
         time.sleep(5)
-        ap.show_message("Hallo Tim , wie geht es dir?,  I'l be back!", text_colour=[255, 255, 255]) 
+        ap.show_message("Hallo Tim , wie geht es dir?,  I'll be back!", text_colour=[255, 255, 255]) 
 
     ###SWITZLAND###
     elif (lati[0] <= 47 and lati[0] >= 46) and (longt[0] >= 6 and longt[0] <= 10):    
@@ -181,7 +181,7 @@ while True:
         ] 
         ap.set_pixels(Austria)
         time.sleep(8)
-        ap.show_message("Hej Tim hur mår du?", text_colour=[150, 200, 140])
+        ap.show_message("Hej Tim hur mar du?", text_colour=[150, 200, 140])
 
     ###ROMANIA###
     elif (lati[0] <= 47 and lati[0] >= 43) and (longt[0] >= 23 and longt[0] <= 28):    
@@ -620,7 +620,7 @@ while True:
         ]
         ap.set_pixels(Argentinian_Flag)
         time.sleep(8)
-        ap.show_message("Saludos, Tim, ¿Como estas?", text_colour=[0, 255, 255])
+        ap.show_message("Saludos, Tim, Como estas?", text_colour=[0, 255, 255])
 
     ###PERU###
     elif (lati[0] <= -4 and lati[0] >= -17) and (longt[0] >= -80 and longt[0] <= -69):    
