@@ -333,7 +333,7 @@ while True:
 
         ap.set_pixels(dr_congo)
         time.sleep(6)
-        ap.show_message("Olá Tim. Como vai", text_colour=[255, 0, 0])
+        ap.show_message("Ola Tim. Como vai", text_colour=[255, 0, 0])
 
     ###SOUTH SUDAN###
     elif (lati[0] <= 9 and lati[0] >= 4 ) and (longt[0] >= 23 and longt[0] <= 35):    
@@ -620,7 +620,7 @@ while True:
         ]
         ap.set_pixels(Argentinian_Flag)
         time.sleep(8)
-        ap.show_message("Saludos, Tim, ¿Cómo estás?", text_colour=[0, 255, 255])
+        ap.show_message("Saludos, Tim, ¿Como estas?", text_colour=[0, 255, 255])
 
     ###PERU###
     elif (lati[0] <= -4 and lati[0] >= -17) and (longt[0] >= -80 and longt[0] <= -69):    
