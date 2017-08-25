@@ -3,7 +3,7 @@
 #Python2.79##
 
 from random import randint
-from astro_pi import AstroPi
+from sense_hat import AstroPi
 import ephem
 import datetime
 import time
@@ -44,8 +44,8 @@ while True:
 
     lati[0] = float(lati[0])
     longt[0] = float(longt[0])
-    print lati[0]
-    print longt[0]
+    print (lati[0])
+    print (longt[0])
    
 
     ###Check the location###
