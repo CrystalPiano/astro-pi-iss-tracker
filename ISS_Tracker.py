@@ -95,7 +95,7 @@ while True:
 
         time.sleep(6)
         ap.show_message("Bonjour!")
-        ap.show_message("Bonjour Tim", text_colour=[255,255,0])
+        ap.show_message("Bonjour!", text_colour=[255,255,0])
 
     ###GERMANY###
     elif (lati[0] <= 51 and lati[0] >= 50) and (longt[0] >= -10 and longt[0] <= 11):    
@@ -118,7 +118,7 @@ while True:
 
         ap.set_pixels(Germany)
         time.sleep(6)
-        ap.show_message("Hallo Tim. Wie geht es dir", text_colour=[255, 0, 255])
+        ap.show_message("Hallo. Wie geht es dir", text_colour=[255, 0, 255])
 
     ###SPAIN###
     elif (lati[0] <= 43 and lati[0] >= 37) and (longt[0] >= -7 and longt[0] <= 0):    
@@ -162,7 +162,7 @@ while True:
         ] 
         ap.set_pixels(Austria)
         time.sleep(5)
-        ap.show_message("Hallo Tim , wie geht es dir?,  I'll be back!", text_colour=[255, 255, 255]) 
+        ap.show_message("Hallo, wie geht es dir?,  I'll be back!", text_colour=[255, 255, 255]) 
 
     ###SWITZLAND###
     elif (lati[0] <= 47 and lati[0] >= 46) and (longt[0] >= 6 and longt[0] <= 10):    
@@ -181,7 +181,7 @@ while True:
         ] 
         ap.set_pixels(Austria)
         time.sleep(8)
-        ap.show_message("Hej Tim hur mar du?", text_colour=[150, 200, 140])
+        ap.show_message("Hej, hur mar du?", text_colour=[150, 200, 140])
 
     ###ROMANIA###
     elif (lati[0] <= 47 and lati[0] >= 43) and (longt[0] >= 23 and longt[0] <= 28):    
@@ -576,7 +576,7 @@ while True:
 
         ap.set_pixels(SouthAfrica)
         time.sleep(6)
-        ap.show_message("Hi Tim jou vlieg oor pragtige Suid-Afrika", text_colour=[255, 0, 0])
+        ap.show_message("Hi, jou vlieg oor pragtige Suid-Afrika", text_colour=[255, 0, 0])
     
     ###ETHIOPIA###
     elif (lati[0] <= 13 and lati[0] >= 4) and (longt[0] >= 36 and longt[0] <= 44):    
@@ -599,7 +599,7 @@ while True:
 
         ap.set_pixels(Ethiopia)
         time.sleep(6)
-        ap.show_message("Hi Guys from Ethiopia, how is it up there on the ISS?")
+        ap.show_message("Hi from Ethiopia, how is it up there on the ISS?")
 
     ###ARGENTINA###
     elif (lati[0] <= -22 and lati[0] >= -54) and (longt[0] >= -67 and longt[0] <= -65):    
@@ -620,7 +620,7 @@ while True:
         ]
         ap.set_pixels(Argentinian_Flag)
         time.sleep(8)
-        ap.show_message("Saludos, Tim, Como estas?", text_colour=[0, 255, 255])
+        ap.show_message("Saludos, Como estas?", text_colour=[0, 255, 255])
 
     ###PERU###
     elif (lati[0] <= -4 and lati[0] >= -17) and (longt[0] >= -80 and longt[0] <= -69):    
@@ -666,7 +666,7 @@ while True:
         ap.set_pixels(question_mark)
 
         time.sleep(6)
-        ap.show_message("Hello Tim, how are you", text_colour=[255, 0, 0])
+        ap.show_message("Hello, how are you", text_colour=[255, 0, 0])
 
     ###NIGER###
     elif (lati[0] <= 20 and lati[0] >= 13 ) and (longt[0] >= 7  and longt[0] <= 14):    
@@ -777,7 +777,7 @@ while True:
          
         ap.set_pixels(Ukraine_Flag)
         time.sleep(8)
-        ap.show_message("Hi Tim and ISS team from Ukraine")
+        ap.show_message("Hi ISS team from Ukraine")
 
     ###RUSSIA###
     elif (lati[0] <= 74 and lati[0] >= 51) and (longt[0] >= 34 and longt[0] <= 38):    
@@ -1027,7 +1027,7 @@ while True:
 
         ap.set_pixels(Japanese_Flag)
         time.sleep(7)
-        ap.show_message("Kon'nichiwa, Timu, ogenkidesuka?", text_colour=[0, 0, 255])
+        ap.show_message("Kon'nichiwa, ogenkidesuka?", text_colour=[0, 0, 255])
 
     ###MALI###
     elif (lati[0] <= 24 and lati[0] >= 15 ) and (longt[0] >= -6 and longt[0] <= 3):    
@@ -1049,7 +1049,7 @@ while True:
         ]
         ap.set_pixels(mALI)
         time.sleep(6)
-        ap.show_message("Bonjour Tim comment allez-vous", text_colour=[255, 0, 0])
+        ap.show_message("Bonjour, comment allez-vous", text_colour=[255, 0, 0])
 
     ###MAURITANIA###
     elif (lati[0] <= 22 and lati[0] >= 15 ) and (longt[0] >= -12 and longt[0] <= -5):    
@@ -1250,7 +1250,7 @@ while True:
         ] 
         ap.set_pixels(cAN)
         time.sleep(6)
-        ap.show_message("HI tim I hope you like pancakes and maple syrup try canada's pankcakes with the winter wether we have in winter", text_colour=[0, 0, 255]) 
+        ap.show_message("HI ISS, I hope you like pancakes and maple syrup try canada's pankcakes with the winter wether we have in winter", text_colour=[0, 0, 255]) 
     
 
     ###BRAZIL###
@@ -1321,7 +1321,7 @@ while True:
         ] 
         ap.set_pixels(italy)
         time.sleep(8)
-        ap.show_message("Ciao Tim vostra su Italia scommeto cho desidra si  puo", text_colour=[255, 180, 200]) 
+        ap.show_message("Ciao! Vostra su Italia scommeto cho desidra si  puo", text_colour=[255, 180, 200]) 
 
     ###CROATIA##
     elif (lati[0] <= 45 and lati[0] >= 42) and (longt[0] >= 13 and longt[0] <= 17):    
@@ -1504,7 +1504,7 @@ while True:
         ] 
         ap.set_pixels(Pakistain)
         time.sleep(6)
-        ap.show_message("Hello Tim. How are you on this fine day?", text_colour=[255, 255, 255]) 
+        ap.show_message("Hello. How are you on this fine day?", text_colour=[255, 255, 255]) 
 
     else:
         ap.show_message("Temperature: %s C" % temp[0:4], scroll_speed=(0.05))
